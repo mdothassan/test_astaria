@@ -1,0 +1,27 @@
+{
+  "name": "@astaria/core",
+  "version": "0.0.6-rc",
+  "author": "Astaria Labs, Inc.",
+  "license": "BUSL-1.1",
+  "engines": {
+    "node": "^16.0.0"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*.sol",
+    "lint:fix": "prettier --write src/**/*.sol",
+    "postinstall": "husky install"
+  },
+  "lint-staged": {
+    "*.sol": "prettier --write"
+  },
+  "devDependencies": {
+    "@astariaxyz/sdk": "1.0.0-alpha.9",
+    "@types/node": "^18.11.18",
+    "ethers": "^5.7.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "prettier-plugin-solidity": "^1.1.1",
+    "solhint": "^3.3.7"
+  }
+}

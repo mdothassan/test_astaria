@@ -1,0 +1,8 @@
+clones-with-immutable-args/=lib/clones-with-immutable-args/src/
+forge-std/=lib/forge-std/src/
+eip4626/=lib/foundry_eip-4626/src/
+gpl/=lib/gpl/src/
+solmate/=lib/solmate/src/
+seaport/=lib/seaport/contracts/
+core/=./src/
+
